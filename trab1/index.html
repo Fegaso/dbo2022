@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        td, th {
+            border: 1px solid gray;
+        }
+    </style>
+    <title>Trabalho</title>
+</head>
+<body>
+    <header></header>
+
+    <nav></nav>
+
+    <main>
+        <h1>Título</h1>
+
+        <p>
+            Esta palavra está em <b>negrito</b>, enquanto esta palavra está em <i>itálico</i>.
+        </p>
+
+        <ul>
+            <li>
+                Frutas
+                
+                <ol>
+                    <li>Banana</li>
+
+                    <li>Maçã</li>
+
+                    <li>Abacate</li>
+                </ol>
+            </li>
+
+            <li>
+                Vegetais
+
+                <ol type="I">
+                    <li>Cebola</li>
+
+                    <li>
+                        Pimentão
+
+                        <ol type="a">
+                            <li>Verde</li>
+
+                            <li>Vermelho</li>
+
+                            <li>Amarelo</li>
+                        </ol>
+                    </li>
+
+                    <li>Tomate</li>
+                </ol>
+            </li>
+        </ul>
+
+        <table>
+            <caption><b>Lucro por mês</b></caption>
+
+            <thead>
+                <tr>
+                    <th>Mês</th>
+
+                    <th>Frutas</th>
+
+                    <th></th>
+                </tr>
+
+                <tr>
+                    <th></th>
+
+                    <th>Banana</th>
+
+                    <th>Maçã</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Janeiro</td>
+                    
+                    <td>100</td>
+
+                    <td>50</td>
+                </tr>
+                
+                <tr>
+                    <td>Fevereiro</td>
+
+                    <td>120</td>
+
+                    <td>100</td>
+                </tr>
+
+                <tr>
+                    <td>Março</td>
+
+                    <td>120</td>
+
+                    <td>150</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td>Total</td>
+
+                    <td>340</td>
+
+                    <td>300</td>
+                </tr>
+            </tfoot>
+        </table> <br>
+
+        <a href="https://ifrs.edu.br"><img src="./um.jpeg" alt="Imagem de um 1"></a><br><br>
+
+        <figure>
+        <img src="./img/dois.png" alt="Imagem de um 2"><br>
+        <figcaption>Um dois apontando para cima</figcaption>
+        </figure>
+
+        <form method="post" action="./recebe.php">
+            <fieldset>
+                <legend>Dados de acesso:</legend><br>
+
+                Nome:<br><input type="text" name="nome" size="10" > <br> <br>
+
+                Senha:<br><input type="password" name="senha" >
+            </fieldset> <br>
+
+            <fieldset>
+                <legend>Informações extra:</legend>
+
+                Telefone:<br><input type="tel" name="telefone"> <br> <br>
+
+                Escolha entre: <br>
+                <input type="radio" name="bebida" value="cafe">Café <br>
+                <input type="radio" name="bebida" value="cha">Chá <br> <br>
+
+                Características: <br>
+                <input type="checkbox" name="caract" value="oculos">Óculos? <br>
+                <input type="checkbox" name="caract" value="estudante">Estudante?
+            </fieldset> <br>
+
+            <input type="submit" name="enviar" value="Enviar"> <br>
+        </form> <br>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/YmJIccPWnEk" title="Música" allowfullscreen></iframe>
+    </main>
+
+    <footer></footer>
+</body>
+</html>
