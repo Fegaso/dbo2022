@@ -1,0 +1,11 @@
+main {
+    text-align: center;
+}
+
+main > p {
+    margin: 40px;
+}
+
+iframe {
+    margin: 50px;
+}
